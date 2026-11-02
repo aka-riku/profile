@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>赤野凜空</h1>
+    <p>ゲームが好きです。居酒屋でバイトしてます</p>
+
+    <h2>好きなもの</h2>
+<ul>
+     <li>ゲーム</li>
+    <li>お金</li>
+    <li>麺</li>
+</ul>
+ <h2>好きな食べ物 ベスト3</h2>
+<ol>
+    <li>うどん</li>
+    <li>そば</li>
+    <li>ラーメン</li>
+</ol>
+<h2>おすすめのWebページ</h2>
+    <p>
+        <a href="https://www.nintendo.com/jp/">
+            任天堂の公式サイト
+        </a>
+    </p>
+    <h2>今週の予定</h2>
+<table border="1">
+    <tr>
+        <th>月曜日</th>
+        <td>大学</td>
+        <td>美容院</td>
+    </tr>
+    <tr>
+        <th>火曜日</th>
+        <td>オンライン授業</td>
+        <td>友達とゲーム</td>
+    </tr>
+　　<tr>
+        <th>水曜日</th>
+        <td>大学</td>
+        <td>アルバイト</td>
+    </tr>
+　　<tr>
+        <th>木曜日</th>
+        <td>大学</td>
+        <td>友達とゲーム</td>
+    </tr>
+　　<tr>
+        <th>金曜日</th>
+        <td>大学</td>
+        <td>アルバイト</td>
+    </tr>
+    <tr>
+        <th>土曜日</th>
+        <td>買い物</td>
+        <td>友達とゲーム</td>
+    </tr>
+　　<tr>
+        <th>日曜日</th>
+        <td>家でだらだら</td>
+        <td>課題</td>
+    </tr>
+</table>
+<h2>このページの感想を送る</h2>
+<form method="get">
+    <dl>
+        <dt><label for="name">お名前</label></dt>
+<dd>
+    <input type="text" id="name" name="name"
+           required placeholder="ねこ太郎">
+</dd>
+        <dt>いちばんよかったところ</dt>
+        <dd>
+            <label><input type="radio" name="best" value="photo">写真</label>
+            <label><input type="radio" name="best" value="list">好きなもの</label>
+            <label><input type="radio" name="best" value="table">予定の表</label>
+        </dd>
+        <dt><label for="comment">感想</label></dt>
+        <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+    </dl>
+    <button type="submit">送信する</button>
+</form>
+</body>
+</html>
