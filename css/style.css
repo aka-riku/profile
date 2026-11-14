@@ -1,0 +1,27 @@
+h1 {
+    color: #ff0000;
+}
+/* ページ全体 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 大見出し */
+h1 {
+    color: #3366cc;
+    font-size: 32px;
+}
+
+/* 小見出し */
+h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+}
+table, th, td {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+}
+.favorite {
+    color: #cc3300;
+    font-weight: bold;
+}
