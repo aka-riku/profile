@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>自己紹介</h1>
+      <header>
+        <h1>自己紹介ページ</h1>
     <p>ゲームと昼寝が好きです。バイトしてます</p>
-
-<img src="img/21827.png" alt="棒人間の画像" width="300">
-<h2>好きなもの</h2>
+    <nav>
+            <a href="#favorite">好きなもの</a>
+            <a href="#schedule">1週間の予定</a>
+            <a href="#form">感想を送る</a>
+        </nav>
+    </header>
+ <main>
+    <img src="img/21827.png" alt="棒人間の画像" width="300">
+<h2 id="favorite">好きなもの</h2>
 <ul>
      <li>ゲーム</li>
     <li>お金</li>
@@ -29,7 +36,7 @@
             任天堂の公式サイト
         </a>
     </p>
-    <h2>今週の予定</h2>
+   <h2 id="schedule">今週の予定</h2>
 <table>
     <tr>
         <th>月曜日</th>
@@ -67,7 +74,7 @@
         <td>課題</td>
     </tr>
 </table>
-<h2>このページの感想を送る</h2>
+<h2 id="form">このページの感想を送る</h2>
 <form method="get">
     <dl>
         <dt><label for="name">お名前</label></dt>
@@ -86,5 +93,15 @@
     </dl>
     <button type="submit">送信する</button>
 </form>
+<h2 id="ask">質問コーナー</h2>
+<p>名前を入れて、ボタンを押してください。</p>
+<input type="text" id="guest-name">
+<button onclick="greet()">あいさつする</button>
+<p id="reply"></p>
+</main>
+ <footer>
+        © 2026 自己紹介ページ
+    </footer>
+   <script src="js/main.js"></script>
 </body>
 </html>
